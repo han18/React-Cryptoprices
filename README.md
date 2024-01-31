@@ -1,4 +1,4 @@
-ALAB 320H.8.1 - Consuming Third-Party APIs
+GLAB 320H.8.1 - React Router App
 
 # Getting Started with Create React App
 
