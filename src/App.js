@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Nav from "./components/Nav.js";
 
-function App() {
+// Import Route and our components
+import { Route, Routes } from "react-router-dom";
+import Currencies from "./pages/Currencies.js";
+import Main from "./pages/Main.js";
+import Price from "./pages/Price.js";
+
+export default function App() {
+  // We will use the Route component, path attribute, and element attribute to specify each route.
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/currencies" element={<Currencies />} />
+        <Route path="/price" element={<Price />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;
