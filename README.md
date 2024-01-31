@@ -1,3 +1,5 @@
+ALAB 320H.8.1 - Consuming Third-Party APIs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
