@@ -6,9 +6,7 @@ export default function Nav(props) {
       <Link to="/">
         <div>CRYPTO PRICES</div>
       </Link>
-      <Link to="/currencies">
-        <div>CURRENCIES</div>
-      </Link>
+      <Link to="/currencies"></Link>
     </div>
   );
 }
