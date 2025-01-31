@@ -49,3 +49,6 @@ export default function Price(props) {
   // If coin has data, run the loaded function; otherwise, run loading.
   return coin && coin.rate ? loaded() : loading();
 }
+
+
+// this is the price component that will be exported 
